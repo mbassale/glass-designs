@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h2, p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.glass {
+    display: flex;
+    min-height: 80vh;
+    width: 85%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255, 0.3));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    z-index: 2;
+}
+
+.square1, .square2, .square3 {
+    position: absolute;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255, 0.3));
+    height: 20rem;
+    width: 20rem;
+    border-radius: 25%;
+    z-index: 1;
+}
+
+.square1 {
+    top: 2%;
+    right: 2%;
+}
+
+.square2 {
+    bottom: 12%;
+    left: 3%;
+    height: 30rem;
+    width: 30rem;
+}
+
+.square3 {
+    bottom: 15%;
+    right: 5%;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255, 0.3));
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0 1rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.contact h2 {
+    color: white;
+    font-weight: 600;
+}
+
+.contact img {
+    margin-left: 1rem;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem 2rem;
+}
+
+.content .header {
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(to left top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.95));
+    border-radius: 1rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
